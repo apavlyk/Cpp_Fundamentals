@@ -17,9 +17,6 @@ bool List::push(Item & item)
 {
 		if (top < MAX)
 		{
-			/*items[top++] = item;
-			item.list_index = top;
-			return true;*/
 			items[top] = item;
 			items[top].list_index = top++;
 			return true;

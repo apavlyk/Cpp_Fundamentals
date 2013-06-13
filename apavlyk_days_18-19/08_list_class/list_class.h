@@ -22,9 +22,6 @@ public:
 	bool push(Item & item); // add item to stack
 
 	void visit(void (*pf)(Item & item));
-
-	//// pop() returns false if stack already is empty, true otherwise
-	//bool pop(Item & item); // pop top into item
 };
 
 void update_item(Item & item);
