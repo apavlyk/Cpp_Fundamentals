@@ -31,16 +31,6 @@ int main()
 			else
 				list.push(item);
 			break;
-		//case 'P':
-		//case 'p': if (st.isempty())
-		//			  std::cout << "stack already empty\n";
-		//		  else {
-		//			  st.pop(item);
-		//			  std::cout << "Customer " << item.fullname << " popped" << endl;
-		//			  total += item.payment;
-		//			  std::cout << "Running Total is " << total << endl;
-		//		  }
-		//		  break;
 		}
 		std::cout << "Please enter A to add a list element, "
 			<< "or Q to quit." << endl;
